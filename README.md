@@ -4,12 +4,15 @@ This repository contains the training code and the backend HLS implementation fo
 
 ## Repository Structure  
 1. **Training Script**:  
-   - Includes the model training code used to train the QLSTM-IDS on the **Open Car Hacking Dataset** and the **Survival Analysis Dataset** for intrusion detection.  
+   - Includes the model training code used to train the QLSTM-IDS on the **Open Car Hacking Dataset** and the **Survival Analysis Dataset** for intrusion detection.
 
-2. **Backend Implementation**:  
+2. **Streamling transformations**:
+   - Includes all the transformations in the FINN-Compiler used for streamlining the QLSTM-IDS model. 
+
+3. **Backend Implementation**:  
    - Features the hardware implementation of the final **LSTM + Dense model** using hardware building blocks available in the **FINN-HLSLib** library.  
 
-3. **Deployment**:  
+4. **Deployment**:  
    - Contains the **bitstream file** for the IDS IP.  
    - Includes a **Jupyter notebook** to monitor latency and energy utilization of the deployed IP.  
 
